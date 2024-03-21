@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Carpet weed', 'Crabgrass', 'Eclipta', 'Goosegrass', 'Morning glory', 'Nutsedge', 'Palmer Amaranth', 'Prickly Sida', 'Purslane']
+
+roboflow:
+  workspace: zig-zag-lnodr
+  project: weed-detection-vanpe
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zig-zag-lnodr/weed-detection-vanpe/dataset/7
